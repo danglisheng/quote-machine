@@ -2,7 +2,9 @@
 .App {
   text-align: center;
 }
-
+#root {
+  width:100%;
+}
 #quote-box .buttons .button:focus {
   border-color:red;
   
@@ -71,11 +73,15 @@ body {
   padding:10px;
   display: table;
   background-color: #fff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
 }
 @media screen and (min-width:760px) {
   #quote-box {
     width: 450px;
     padding: 40px 50px;
+    box-sizing: content-box;
   }
 }
 #quote-box .quote-text {

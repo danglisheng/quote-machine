@@ -60,14 +60,14 @@ class App extends Component {
     }
     render() {
         return (
-            <div id="wrapper">
+           
         
         <QuoteBox currentQuote={ this.state.currentQuote } 
           updateQuote={ this.updateQuote}
           
           textOpacity={ this.state.textOpacity }
         /> 
-      </div>
+     
         );
     }
 }

@@ -68,33 +68,40 @@ body {
 #quote-box {
   border-radius: 3px;
   position: relative;
-  width: 450px;
-  padding: 40px 50px;
+  padding:10px;
   display: table;
   background-color: #fff;
 }
+@media screen and (min-width:760px) {
+  #quote-box {
+    width: 450px;
+    padding: 40px 50px;
+  }
+}
 #quote-box .quote-text {
   text-align: center;
-  width: 450px;
   height: auto;
   clear: both;
   font-weight: 500;
-  font-size: 1.75em;
+  font-size: 1em;
+}
+@media screen and (min-width:760px) {
+  #quote-box .quote-text {
+     font-size: 1.75em;
+  }
 }
 #quote-box .quote-text i {
   font-size: 1.0em;
   margin-right: 0.4em;
 }
 #quote-box .quote-author {
-  width: 450px;
-  height: auto;
+ height: auto;
   clear: both;
   padding-top: 20px;
   font-size: 1em;
   text-align: right;
 }
 #quote-box .buttons {
-  width: 450px;
   margin: auto;
   display: block;
 }

@@ -329,7 +329,7 @@ module.exports = {
       // Don't precache sourcemaps (they're large) and build asset manifest:
       staticFileGlobsIgnorePatterns: [/\.map$/, /asset-manifest\.json$/],
       runtimeCaching:[{
-        urlPattern:/\/css\/font-awesome\.min\.css/,
+        urlPattern:/\/font-awesome/,
         handler:'fastest'
       },{
         urlPattern:/jquery-3.3.1.js/,
